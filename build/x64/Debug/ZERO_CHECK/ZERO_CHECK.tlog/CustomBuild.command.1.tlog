@@ -1,0 +1,10 @@
+^C:\USERS\CUDIN\DESKTOP\CMAKE_FULL\BUILD\CMAKEFILES\11C91C3B8B8BECE656FD243E1D50F262\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/cudin/Desktop/cmake_full -BC:/Users/cudin/Desktop/cmake_full/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/cudin/Desktop/cmake_full/build/rpg.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

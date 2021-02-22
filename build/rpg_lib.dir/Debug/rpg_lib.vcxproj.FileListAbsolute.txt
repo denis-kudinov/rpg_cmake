@@ -1,0 +1,2 @@
+C:\Users\cudin\Desktop\cmake_full\build\Debug\rpg_lib.pdb
+C:\Users\cudin\Desktop\cmake_full\build\rpg_lib.dir\Debug\rpg_lib.pdb

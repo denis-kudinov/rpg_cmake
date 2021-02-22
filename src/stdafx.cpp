@@ -1,0 +1,1 @@
+#include "mylib/stdafx.hpp"
